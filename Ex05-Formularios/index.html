@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <form action="#">Formularios
+        <fieldset>
+            <legend>Daddos Gerais</legend>
+            <label for="nome">Nome :</label>
+            <input type="text" minlength="3" id="nome" required>
+
+            <label for="nascimento">Data de nascimento :</label>
+            <input type="number" minlength="3" id="nascimento" required>
+
+            <label for="cpf">CPF :</label>
+            <input type="cpf" minlength="3" id="cpf" required>
+
+        </fieldset>
+        <fieldset>
+            <legend>Endereço</legend>
+
+            <label for="tipo_endereço">Tipo:</label>
+            <select id="tipo_endereço">
+                <option value="">Selecione</option>
+                <option value="">Rua</option>
+                <option value="">Estrada    </option>
+            </select>
+
+            <label for="logradouro_endereco">Logradouro</label>
+            <input type="text" id="logradouro_endereco">
+            <label for="numero-endereco">Numeroo</label>
+            <input type="text" id="numero_endereco">
+            <label for="complemento_endereco">Complemento</label>
+            <input type="text" id="complemento_endereco">
+            
+        </fieldset>
+        <fieldset>
+            <button type="submit">Envie sua mensagem</button>
+            <button type="reset
+            ">Limpar Formulario</button>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
